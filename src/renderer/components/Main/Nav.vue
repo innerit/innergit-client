@@ -5,7 +5,7 @@
       <template slot="title">Config.</template>
       <el-menu-item index="2-1"> <i class="fas fa-sign-out-alt"></i> Salir</el-menu-item>
     </el-submenu>
-    <el-menu-item index="1" style="float:right;">
+    <el-menu-item index="4" style="float:right;">
       <el-select v-model="value" placeholder="Select">
         <el-option
           v-for="item in options"
